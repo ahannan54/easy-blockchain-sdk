@@ -301,7 +301,7 @@ namespace Example
             try
             {
                 // List backends
-                List&lt;Backend&gt; result = apiInstance.ListBackends();
+                Backend result = apiInstance.ListBackends();
                 Debug.WriteLine(result);
             }
             catch (Exception e)
